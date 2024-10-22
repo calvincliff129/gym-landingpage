@@ -1,6 +1,7 @@
 <script lang="ts">
   import ReviewCard from "./ReviewCard.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
+  import Stars from "./Stars.svelte";
 
   type ReviewsList = {
     name: string;
@@ -110,6 +111,15 @@
           <ReviewCard {reviewItem} left={false} {index} />
         {/each}
       </div>
+    </div>
+    <button on:click={() => (lim = !lim)} class="specialBtn">
+      <p>{lim ? "Show More" : "Show Less"}</p>
+    </button>
+    <div class="flex flex-col gap-10">
+      <p class="mx-auto text-lg sm:text-xl md:text-2xl font-semibold">
+        Trusted by 1,000+ fitness enthusiasts
+      </p>
+      <Stars />
     </div>
   </div>
 </SectionWrapper>
