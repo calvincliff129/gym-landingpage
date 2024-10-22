@@ -16,7 +16,7 @@
         "Every workout is new and exciting",
       ],
       description:
-        "Swoley moley ensures all users have the information they need to train safely and train effectively.",
+        "Once Vinnn ensures all users have the information they need to train safely and train effectively.",
       imgUrl: "assets/selection.png",
     },
     {

@@ -4,9 +4,9 @@
   >
     <div class="flex flex-col gap-4 md:col-span-2">
       <h1 class="font-semibold">
-        Swoley <span class="text-indigo-400">Moley</span>
+        Once <span class="text-indigo-400">Vinnn</span>
       </h1>
-      <p>©2024 SWOLEY MOLEY SDN BHD. All rights reserved.</p>
+      <p>©2024 Once Vinnn SDN BHD. All rights reserved.</p>
     </div>
     <div class="flex flex-col gap-4">
       <p class="font-semibold poppins text-base sm:text-lg">Support</p>
